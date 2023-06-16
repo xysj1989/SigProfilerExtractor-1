@@ -514,7 +514,7 @@ def sigProfilerExtractor(input_type,
             mtypes = ["CNV48"]
         elif mtypes[0]=="32":
             mtypes = ["SV32"]
-        elif mtypes[0]=="96" or "288" or "384" or "1536":
+        elif mtypes[0]=="96" or "192" or "288" or "384" or "1536":
             mtypes = ["SBS"+mtypes[0]]
         else:
             mtypes = ["CH"+mtypes[0]]
